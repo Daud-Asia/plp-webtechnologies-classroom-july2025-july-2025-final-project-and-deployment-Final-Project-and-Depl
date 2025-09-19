@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Available Listings | Renthena</title>
+  <link rel="stylesheet" href="css/listing.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">Renthena 🏠</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="listing.html">Listing</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+    <div class="menu-icon">&#9776;</div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Available Listings</h1>
+      <p>Browse verified rental properties from trusted landlords.</p>
+    </div>
+  </section>
+
+  <section class="filters">
+    <input type="text" placeholder="Search" />
+    <select>
+      <option>Property Type</option>
+      <option value="">All Types</option>
+      <option value="1-bedroom">1 Bedroom</option>
+      <option value="2-bedroom">2 Bedroom</option>
+    </select>
+    <select>
+      <option>Price Range</option>
+      <option value="">Any Price</option>
+      <option value="low">Below ₦500k</option>
+      <option value="high">Above ₦500k</option>
+    </select>
+    <select>
+      <option>All Locations</option>
+      <option value="">All Locations</option>
+      <option value="lagos">Lagos</option>
+      <option value="abuja">Abuja</option>
+    </select>
+    <button id="filterBtn">Filter</button>
+  </section>
+
+  <section class="listings">
+    <div class="listing-card">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Room" />
+      <h3>Room for Rent</h3>
+      <p>N200,000/year</p>
+      <ul>
+        <li>Wi-Fi</li>
+        <li>Water</li>
+        <li>Furnished</li>
+      </ul>
+      <button class="view-btn">View Details</button>
+    </div>
+
+    <div class="listing-card">
+      <img src="" alt="2-Bedroom" />
+      <h3>2-Bedroom Apartment in Ibadan</h3>
+      <p>N500,000/year</p>
+      <ul>
+        <li>Water</li>
+        <li>Parking</li>
+        <li>Security</li>
+      </ul>
+      <button class="view-btn">View Details</button>
+    </div>
+
+    <div class="listing-card">
+      <img src="" alt="Self-Contained" />
+      <h3>Self-Contained</h3>
+      <p>N300,000/year</p>
+      <ul>
+        <li>Water</li>
+        <li>Kitchen</li>
+      </ul>
+      <button class="view-btn">View Details</button>
+    </div>
+
+    <div class="listing-card">
+      <img src="https://jiji.ng/" alt="3-Bedroom" />
+      <h3>3-Bedroom Apartment in Lagos</h3>
+      <p>N800,000/year</p>
+      <ul>
+        <li>Wi-Fi</li>
+        <li>AC</li>
+        <li>Parking</li>
+      </ul>
+      <button class="view-btn">View Details</button>
+    </div>
+  </section>
+  
+<footer style="background-color: #0f172a; color: #fff; padding: 2rem 1rem; text-align: center; margin-top: 4rem;">
+  <div style="margin-bottom: 1rem;">
+    <strong>Renthena</strong> 🏠
+  </div>
+  <div style="margin-bottom: 1rem;">
+    <a href="#" style="color: #94a3b8; margin: 0 10px; text-decoration: none;">Privacy Policy</a> |
+    <a href="#" style="color: #94a3b8; margin: 0 10px; text-decoration: none;">Terms</a> |
+    <a href="#" style="color: #94a3b8; margin: 0 10px; text-decoration: none;">Support</a>
+  </div>
+  <div style="margin-bottom: 1rem;">
+    <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook.png" style="width: 20px; margin: 0 8px;" /></a>
+    <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png" style="width: 20px; margin: 0 8px;" /></a>
+    <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png" style="width: 20px; margin: 0 8px;" /></a>
+  </div>
+  <div style="font-size: 14px; color: #94a3b8;">
+    © 2025 Renthena. All rights reserved.
+  </div>
+</footer>
+
+  <script src="js/listing.js"></script>
+</body>
+  </html>
