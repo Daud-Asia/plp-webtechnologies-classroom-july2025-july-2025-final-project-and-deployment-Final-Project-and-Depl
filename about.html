@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About | Renthena</title>
+  <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">Renthena 🏡</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="listing.html">Listing</a></li>
+      <li><a href="signup.html">SignUp</a></li>
+    </ul>
+  </nav>
+
+<section class="about-header">
+  <div class="overlay">
+    <h1>"Renthena is a trusted housing platform built to connect verified landlords with responsible renters in a secure, smart and fraud-proof environment. We provide easy access to legitimate property listings and create peace of mind for both landlords and tenants by focusing on transparency, identity verification, and seamless communication."</h1>
+  </div>
+</section>
+
+<section class="about-content">
+  <div class="about-box">
+    <h2>Our Mission</h2>
+    <p>To connect responsible renters and trusted landlords through a safe, fraud-proof, and efficient housing platform.</p>
+  </div>
+  <div class="about-box">
+    <h2>What We Offer</h2>
+    <ul>
+      <li>Verified rental listings</li>
+      <li>Fraud protection features</li>
+      <li>Secure landlord-renter communication</li>
+      <li>Support for both renters and landlords</li>
+    </ul>
+  </div>
+  <div class="about-box">
+    <h2>Why Renthena?</h2>
+    <p>We’re not just about listings — we’re about trust, transparency, and peace of mind for all users on our platform.</p>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <p>Have a question or need help? Send us a message below.</p>
+    <form id="contactForm">
+      <input type="email" placeholder="Your Email" required />
+      <input type="tel" placeholder="Your Phone (optional)" />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Renthena. All rights reserved.</p>
+      <p>Smart Housing. Safe Living.</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+<script>
+document.getElementById('contactForm')
+.addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert('Thank you! Your message has been sent.');
+  this.reset();
+});
+</script>
+</html>
