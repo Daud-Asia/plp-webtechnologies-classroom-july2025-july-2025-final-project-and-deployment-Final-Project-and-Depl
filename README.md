@@ -7,24 +7,6 @@ Renthena is a trusted housing platform designed to connect verified landlords wi
 View Live Website - [https://daud-asia.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/]
 
 
-📁 Project Structure
-
-
-renthena/
-│
-├── home.html            # Homepage
-├── about.html            # About Page
-├── listings.html         # Property Listings
-├── styles/
-│   └── style.css         # Global Styles
-├── js/
-│   └── main.js           # JavaScript Functionality
-├── assets/
-│   ├── images/           # All Images (Listings, Icons, Backgrounds)
-│   └── logo.png          # Logo File
-└── README.md             # Project Documentation
-
-
 💡 Features
 
 - Fully responsive UI
@@ -34,7 +16,6 @@ renthena/
 - Interactive buttons
 - Contact form (embedded on About page)
 - Styled using CSS with brand consistency
-
 
 📦 Technologies Used
 
